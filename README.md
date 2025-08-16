@@ -64,7 +64,7 @@ Steps applied:
 
 ![Boxplots with Outliers](./images/monetary%20value%20and%20frequency%20and%20recency%20distribution%20box%20plot%20with%20heavy%20outliers.png)
 
-📌 **After Outlier Removal:**
+📌 **After Major Outlier Seperated:**
 
 ![Boxplots after Outlier Removal](./images/monetary%20value%20and%20frequency%20and%20recency%20distribution%20box%20plot%20after%20seperating%20heavy%20outliers.png)
 
@@ -165,26 +165,7 @@ Features per customer:
 
 ---
 
-## 📁 Suggested Repository Structure
-
-```
-.
-├── notebooks/
-│   └── Kmeans_online_retail2.ipynb
-├── images/                           # visual outputs
-├── data/
-│   └── online_retail_II.xlsx         # (ignored in git)
-├── outputs/
-│   ├── customer_segments_inliers.csv
-│   └── customer_outliers_flagged.csv
-├── README.md
-└── requirements.txt
-```
-
----
-
-## 🌟 Highlights for Recruiters
-
+## 🌟 Highlights
 ✔️ Built a **scalable, reproducible ML pipeline** from raw retail logs
 
 ✔️ Applied **RFM analysis + K-Means** for **customer segmentation**
